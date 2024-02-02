@@ -3266,3 +3266,46 @@ td {
   transform: scale(1.6) rotate(45deg);
   
 }
+
+
+/****************************** less 13 FORMS ********************************/
+.BG-less-13 {
+  background: #475583;
+}
+
+.form{
+  padding: 50px 0;
+  /* max-width: 400px; */
+}
+
+.form input {
+  /* width: 100%; */
+  margin-bottom: 5px;
+}
+
+input::placeholder {
+  color: #253f97;
+  font-family: 'Tektur';
+  font-weight: 400;
+}
+
+textarea {
+  width: 500px;
+  height: 250px;
+  max-width: 1000px;
+  min-height: 200px;
+  resize: vertical;
+  background: #81a36b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea:hover {
+  background: #33aa90;
+}
+
+textarea:focus {
+  background: #3d5f38;
+}
+
+
