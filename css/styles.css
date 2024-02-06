@@ -3280,7 +3280,7 @@ td {
 
 .form input {
   /* width: 100%; */
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 input::placeholder {
@@ -3293,11 +3293,11 @@ textarea {
   width: 500px;
   height: 250px;
   max-width: 1000px;
-  min-height: 200px;
   resize: vertical;
-  background: #81a36b;
+  background: #3d5f38;
   border-radius: 10px;
   padding: 10px;
+  transition: all .2s linear;
 }
 
 textarea:hover {
@@ -3305,7 +3305,28 @@ textarea:hover {
 }
 
 textarea:focus {
-  background: #3d5f38;
+  background: #81a36b;
+  /* outline: none; (if want hidden border focus) */ 
+  outline: none;
+  box-shadow: 0 0 0 2px  #ff7e20;
 }
 
+.area {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: wheat;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 10px;
+  /* cursor: pointer; */
+}
 
+#area:checked + textarea {
+  width: 0;
+  height: 0;
+}
+
+.checkboxes input {
+  padding: 10px 20px;
+}

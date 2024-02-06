@@ -41,6 +41,10 @@ table {
   border-spacing: 0;
 }
 
+label {
+  cursor: pointer;
+}
+
 /*  html, body {
   scroll-behavior: smooth;
 } */
