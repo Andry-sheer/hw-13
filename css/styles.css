@@ -1530,7 +1530,6 @@ td {
 .header-section {
   min-height: 95px;
   background: transparent;
-  z-index: -9;
 }
 
 .header {
@@ -1750,17 +1749,16 @@ td {
 }
 
 /************************* main-page ******************************/
-
-.main-background {
+.section-main {
   background: url(/images/Arcane.jpg) no-repeat center/cover;
   min-height: 934px;
-  z-index: -8;
 }
 
 .main-contr {
   max-width: 1248px;
   margin: 0 auto;
   padding: 0 24px;
+  /* height: 2000px; */
 }
 
 .title-main {
@@ -1975,6 +1973,10 @@ td {
   background: rgb(0, 0, 0);
   color: #f2f2f2;
   padding: 15px 0;
+  position: static;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .footer-container {
