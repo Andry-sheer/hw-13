@@ -3432,9 +3432,16 @@ textarea:focus {
   border-radius: 50px;
   background: #fff;
   cursor: pointer;
-  
   box-shadow: inset 0 0 4px black; 
   position: relative;
+}
+
+.switch__inner input + label > span {
+  color:rgb(255, 0, 0) ;
+}
+
+.switch__inner input + label > span + span {
+  color:rgb(0, 0, 0) ;
 }
 
 .switch__inner input + label::before {
@@ -3463,10 +3470,11 @@ textarea:focus {
   /* flex: 1 1 50%; */ /*** так же для равномерности ***/
 }
 
-.test1 {
+/* .test1 {
   width: 500px;
   height: 400px;
   background: rgba(0, 0, 0);
   margin-left: auto;
   opacity: 0.3;
-}
+} */
+
