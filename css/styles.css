@@ -3422,7 +3422,11 @@ textarea:focus {
 }
 
 .switch__inner input + label {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px; /***  Сделал гапом для равномерности!  ***/
   width: 110px;
   height: 50px;
   border-radius: 50px;
@@ -3448,4 +3452,21 @@ textarea:focus {
 .switch__inner input:checked + label::before {
   /* transform: translateX(-100%); */
   left: calc(100% - 48px);
+}
+
+/********* text ******************/
+.switch__inner span {
+  position: relative;
+}
+
+.switch__inner span {
+  /* flex: 1 1 50%; */ /*** так же для равномерности ***/
+}
+
+.test1 {
+  width: 500px;
+  height: 400px;
+  background: rgba(0, 0, 0);
+  margin-left: auto;
+  opacity: 0.3;
 }
